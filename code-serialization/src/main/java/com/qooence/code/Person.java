@@ -7,7 +7,10 @@ public class Person implements Serializable {
     private static final long serialVersionUID = 216680197383363782L;
 
     private String name;
+
     private int age;
+
+    private transient String sex;
 
     public String getName() {
         return name;
@@ -25,11 +28,20 @@ public class Person implements Serializable {
         this.age = age;
     }
 
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", sex='" + sex + '\'' +
                 '}';
     }
 }
