@@ -12,6 +12,7 @@
     <module>code-socket</module>
     <module>code-serialization</module>
     <module>code-rmi</module>
+    <module>code-zookeeper</module>
   </modules>
 
   <name>qooence-code</name>

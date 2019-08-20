@@ -7,13 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="code-rmi" />
+        <module name="code-serialization" />
+        <module name="code-socket" />
+        <module name="code-zookeeper" />
         <module name="codeserialization" />
         <module name="codesocket" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="code-rmi2" target="1.7" />
-      <module name="qooence-rmi" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
