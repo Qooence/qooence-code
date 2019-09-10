@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="565a60fd-0476-43e8-903e-7a59bb36f9aa" name="Default Changelist" comment="" />
+    <list default="true" id="565a60fd-0476-43e8-903e-7a59bb36f9aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/DistrubuteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/DistrubuteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/LockWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/LockWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/ZookpeerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/ZookpeerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/code-socket/target/" />
@@ -10,6 +17,12 @@
     <ignored path="$PROJECT_DIR$/code-rmi/target/" />
     <ignored path="$PROJECT_DIR$/code-rmi2/target/" />
     <ignored path="$PROJECT_DIR$/code-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbouser/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbo-order/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbo-user/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbo-order/order-api/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbo-order/order-provider/target/" />
+    <ignored path="$PROJECT_DIR$/code-money/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +31,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-money/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1460">
+              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code-zookeeper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="342">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/OsChina.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,6 +89,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,11 +123,32 @@
         <option value="$PROJECT_DIR$/code-rmi2/pom.xml" />
         <option value="$PROJECT_DIR$/code-rmi/src/main/java/com/qooence/code/HelloClinet.java" />
         <option value="$PROJECT_DIR$/code-rmi/src/main/java/com/qooence/code/ISayHello.java" />
-        <option value="$PROJECT_DIR$/code-zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/DistrubuteLock.java" />
         <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/LockWatcher.java" />
         <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/ZookpeerClient.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/UserCenter.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterSelector.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest1.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest2.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest3.java" />
+        <option value="$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/curator/MasterSelector.java" />
+        <option value="$PROJECT_DIR$/../dubbouser/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/IOrderService.java" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/java/com/qooence/dubbo/order/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/DoOrderResquest.java" />
+        <option value="$PROJECT_DIR$/../dubbo-user/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubbo-user/src/main/java/com/qooence/dubbo/user/App.java" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/DoOrderResponse.java" />
+        <option value="$PROJECT_DIR$/../dubbo-order/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/resource/META-INF/spring/order-provider.xml" />
+        <option value="$PROJECT_DIR$/code-money/pom.xml" />
+        <option value="$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/App.java" />
+        <option value="$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/OsChina.java" />
       </list>
     </option>
   </component>
@@ -82,11 +161,22 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="code-money" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="31" />
-    <option name="width" value="1685" />
-    <option name="height" value="953" />
+    <option name="x" value="469" />
+    <option name="y" value="42" />
+    <option name="width" value="1309" />
+    <option name="height" value="887" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -107,25 +198,25 @@
             <path>
               <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -133,24 +224,31 @@
             <path>
               <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qooence-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qooence-code" type="462c0819:PsiDirectoryNode" />
+              <item name="code-money" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566345181165" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568158910743" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-user" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -163,6 +261,7 @@
       <recent name="com.qooence.code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qooence.code.zkclient" />
       <recent name="com.qooence.code" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -181,13 +280,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DistrubuteLock">
-    <configuration name="DeepCloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qooence.code.clone.DeepCloneTest" />
-      <module name="codeserialization" />
+  <component name="RunManager" selected="Application.OsChina">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qooence.code.App" />
+      <module name="code-money" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qooence.code.clone.*" />
+          <option name="PATTERN" value="com.qooence.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +294,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistrubuteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qooence.code.distrubuteLock.javaApiLock.DistrubuteLock" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qooence.dubbo.user.App" />
+      <module name="dubbo-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qooence.dubbo.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MasterChooseTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qooence.code.zkclient.MasterChooseTest2" />
       <module name="code-zookeeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qooence.code.distrubuteLock.javaApiLock.*" />
+          <option name="PATTERN" value="com.qooence.code.zkclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,9 +320,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloClinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qooence.code.HelloClinet" />
-      <module name="code-rmi" />
+    <configuration name="MasterChooseTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qooence.code.zkclient.MasterChooseTest3" />
+      <module name="code-zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qooence.code.zkclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OsChina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qooence.code.OsChina" />
+      <module name="code-money" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qooence.code.*" />
@@ -221,39 +346,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qooence.code.HelloServer" />
-      <module name="code-rmi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qooence.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qooence.code.SerializationDemo" />
-      <module name="codeserialization" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qooence.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.MasterChooseTest2" />
+      <item itemvalue="Application.MasterChooseTest3" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.OsChina" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DistrubuteLock" />
-        <item itemvalue="Application.HelloClinet" />
-        <item itemvalue="Application.HelloServer" />
-        <item itemvalue="Application.DeepCloneTest" />
-        <item itemvalue="Application.SerializationDemo" />
+        <item itemvalue="Application.OsChina" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.MasterChooseTest3" />
+        <item itemvalue="Application.MasterChooseTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -278,10 +384,9 @@
     <option name="totallyTimeSpent" value="23444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="31" width="1685" height="953" extended-state="0" />
-    <editor active="true" />
+    <frame x="469" y="42" width="1309" height="887" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20861538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2289832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,8 +394,39 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32722834" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34390244" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32682925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21618037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26392573" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.26923078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.27683616" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24299066" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32682925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21707317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,51 +446,24 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/OsChina.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code-socket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-socket/src/main/java/com/qooence/code/App.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/net/Socket.java" />
-    <entry file="file://$PROJECT_DIR$/code-socket/src/main/java/com/qooence/code/socketDemo/SocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-socket/src/main/java/com/qooence/code/socketDemo/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/concurrent/TimeUnit.java" />
-    <entry file="file://$PROJECT_DIR$/code-socket/src/main/java/com/qooence/code/MulticastSocketDemo/MulticastSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-serialization/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-serialization/src/main/java/com/qooence/code/App.java" />
     <entry file="file://$PROJECT_DIR$/code-socket/src/main/java/com/qooence/code/MulticastSocketDemo/MulticastReceive.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,38 +586,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/LockWatcher.java">
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/LockWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/ZookpeerClient.java">
+    <entry file="jar://D:/MavenRepository/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/IZkChildListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/distrubuteLock/javaApiLock/DistrubuteLock.java">
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/ZookpeerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="250">
+          <caret line="15" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/javaApiLock/DistrubuteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
           <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest.java" />
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/UserCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterChooseTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/zkclient/MasterSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-zookeeper/src/main/java/com/qooence/code/curator/MasterSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#1104#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/src/main/java/com/qooence/dubbo/order/App.java" />
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/DoOrderResquest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-provider/src/main/java/com/qooence/dubbo/order/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/qooence/dubbo/order/DoOrderResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/order-provider/src/main/resource/META-INF/spring/order-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-user/src/main/java/com/qooence/dubbo/user/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-money/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-1460">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code-zookeeper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="342">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-money/src/main/java/com/qooence/code/OsChina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,7 +854,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

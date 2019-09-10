@@ -1,4 +1,4 @@
-package com.qooence.code.distrubuteLock.javaApiLock;
+package com.qooence.code.javaApiLock;
 
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;

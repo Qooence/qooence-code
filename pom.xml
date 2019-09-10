@@ -13,6 +13,7 @@
     <module>code-serialization</module>
     <module>code-rmi</module>
     <module>code-zookeeper</module>
+      <module>code-money</module>
   </modules>
 
   <name>qooence-code</name>
