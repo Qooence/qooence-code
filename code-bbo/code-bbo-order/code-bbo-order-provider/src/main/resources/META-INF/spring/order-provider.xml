@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--到包里面扫描类、方法、属性上面是否有注解-->
+    <!--扫描属性上的注解-->
+    <context:annotation-config/>
+
+    <!--开启注解扫描-->
+    <context:component-scan base-package="com.qooence.code.order.service"></context:component-scan>
+
+    <!--当前项目在整个分布式架构里面的唯一名称，计算依赖关系的标签-->
+    <dubbo:application name="order-provider"/>
+    <dubbo:monitor protocol="registry"/>
+    <!--dubbo这个服务所要暴露的服务地址所对应的注册中心-->
+    <!--<dubbo:registry address="zookeeper://127.0.0.1:2181"/>-->
+    <dubbo:registry protocol="zookeeper"
+                    address="192.168.74.128:2181,192.168.74.129:2181,192.168.74.130:2181,192.168.74.131:2181"/>
+
+    <!--当前服务发布所依赖的协议；webserovice、Thrift、Hessain、http-->
+    <dubbo:protocol name="dubbo" port="20881"/>
+
+    <!--服务发布的配置，需要暴露的服务接口-->
+    <dubbo:service interface="com.qooence.code.order.api.IOrderQueryService" ref="orderQueryService"/>
+    <dubbo:service interface="com.qooence.code.order.api.IOrderService" ref="orderService"/>
+
+</beans>

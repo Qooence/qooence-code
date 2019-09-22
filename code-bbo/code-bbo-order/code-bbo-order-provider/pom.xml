@@ -5,33 +5,53 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.qooence.code</groupId>
-    <artifactId>qooence-code</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>code-bbo-order-provider</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>code-socket</module>
-        <module>code-serialization</module>
-        <module>code-rmi</module>
-        <module>code-zookeeper</module>
-        <module>code-money</module>
-        <module>code-bbo</module>
-    </modules>
 
-    <name>qooence-code</name>
+    <parent>
+        <artifactId>code-bbo-order</artifactId>
+        <groupId>com.qooence.code</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <name>code-bbo-order-provider</name>
     <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.qooence.code</groupId>
+            <artifactId>code-bbo-usercenter-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.qooence.code</groupId>
+            <artifactId>code-bbo-order-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
