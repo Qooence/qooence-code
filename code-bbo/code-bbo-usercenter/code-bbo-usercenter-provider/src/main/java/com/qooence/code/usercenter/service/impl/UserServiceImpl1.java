@@ -1,13 +1,13 @@
-package com.qooence.code.usercenter.service;
+package com.qooence.code.usercenter.service.impl;
 
 import com.qooence.code.usercenter.api.IUserService;
 import com.qooence.code.usercenter.dto.UserLoginRequest;
 import com.qooence.code.usercenter.dto.UserLoginResponse;
 import com.qooence.code.usercenter.validator.UserValidator;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
 
-@Service("userService")
-public class UserServiceImpl implements IUserService {
+@Service(interfaceName = "userService",version = "${dubbo.version}")
+public class UserServiceImpl1 implements IUserService {
 
     public UserLoginResponse login(UserLoginRequest request) {
         //参数校验
