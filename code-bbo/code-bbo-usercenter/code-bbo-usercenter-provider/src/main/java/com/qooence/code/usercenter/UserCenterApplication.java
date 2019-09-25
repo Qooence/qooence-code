@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 // 开启基于注解的dubbo功能（主要是包扫描@DubboComponentScan）
 // 也可以在配置文件中使用dubbo.scan.base-package来替代   @EnableDubbo
-//引入配置信息
+// 还可以引入配置信息
 //@ImportResource(locations="classpath:provider.xml")
 @EnableDubbo
 @SpringBootApplication
