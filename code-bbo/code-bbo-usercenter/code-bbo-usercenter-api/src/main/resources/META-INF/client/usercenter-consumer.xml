@@ -8,7 +8,5 @@
     <!--到包里面扫描类、方法、属性上面是否有注解-->
     <!--扫描属性上的注解-->
     <context:annotation-config/>
-
-    <dubbo:reference id="userService" interface="com.qooence.code.usercenter.api.IUserService"/>
-
+    <dubbo:reference id="authService" interface="com.qooence.code.usercenter.api.IAuthService"/>
 </beans>
