@@ -27,7 +27,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>4.11</junit.version>
-        <dubbo.version>2.7.3</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <curator.version>2.9.0</curator.version>
         <springboot.version>2.1.8.RELEASE</springboot.version>
         <fastjson.version>1.2.56</fastjson.version>
